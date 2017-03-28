@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot + nestedSortable.js</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="webjars/jquery-ui/1.11.3/jquery-ui.min.css"/>
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
+</head>
+
+<body>
+    <ol class="sortable ui-sortable mjs-nestedSortable-branch mjs-nestedSortable-expanded"></ol>
+
+    <script src="webjars/jquery/3.1.0/jquery.min.js"/> <!-- jQuery -->
+    <script src="webjars/jquery-ui/1.11.3/jquery-ui.min.js"/> <!-- jQuery UI -->
+    <script th:src="@{/js/jquery.mjs.nestedSortable.js}"/>
+    <script th:src="@{/js/script.js}"/>
+</body>
+</html>
