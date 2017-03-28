@@ -9,12 +9,12 @@ There were no examples of using nestedSortable.js library with the ability to sa
 ## Logics
 
 At the heart of the application is the entity named "Snippet", which has next fields:
-Long snippetId - id
-String textDE - text in Germany
-String textEN - text in English
-int indent - nesting level
-boolean isCollapsed - flag for collapse or extend
-int orderSnippet - order in snippet's tree
+* Long snippetId - id
+* String textDE - text in Germany
+* String textEN - text in English
+* int indent - nesting level
+* boolean isCollapsed - flag for collapse or extend
+* int orderSnippet - order in snippet's tree
 
 User can move each snippet in the tree and the result of the movening will save to the database
 
